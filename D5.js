@@ -90,13 +90,20 @@ const check3and7 = function(positiveNumber) {
 Write a function "reverseString" to programmatically reverse a given string (es.: Strive => evirtS).
 */
 
-/* WRITE YOUR CODE HERE */
+const reverseString = function(stringToReverse) {
+  let reversedString = ""
+  for(let i = stringToReverse.length - 1; i >=0; i--) {
+    reversedString += stringToReverse[i]
+  }
+  return reversedString
+}
 
 /* EXERCISE 8
 Write a function "upperFirst" to capitalize the first letter of each word of a given string passed as a parameter.
 */
 
-/* WRITE YOUR CODE HERE */
+const upperFirst = function(stringToCapitalize) {
+}
 
 /* EXERCISE 9
 Write a function "cutString" to create a new string without the first and last character of a given string.
