@@ -77,7 +77,14 @@ Write a function "check3and7" which accepts a positive number and check if it is
 HINT: Module Operator
 */
 
-/* WRITE YOUR CODE HERE */
+const check3and7 = function(positiveNumber) {
+
+  if (positiveNumber % 3 == 0 && positiveNumber > 0 || positiveNumber % 7 == 0 && positiveNumber > 0) {
+  return true
+  } else {
+  return false
+  }
+}
 
 /* EXERCISE 7
 Write a function "reverseString" to programmatically reverse a given string (es.: Strive => evirtS).
