@@ -20,15 +20,14 @@ Write a function "crazySum" which receives two integers. It should return the su
 */
 
 const crazySum = function(integerOne, integerTwo) {
-  if(integerTwo === integerOne) {
-    let sum = (integerOne + integerTwo) * 2
+  if(integerOne === integerTwo) {
+    let sum = (integerOne + integerTwo) * 3
+    return sum
   } else {
     let sum = integerOne + integerTwo
+    return sum
   }
-  return sum
 }
-
-console.log(crazySum(2,5))
 
 /* EXERCISE 3
 Write a function "crazyDiff" that computes the absolute difference between a given number and 19. 
